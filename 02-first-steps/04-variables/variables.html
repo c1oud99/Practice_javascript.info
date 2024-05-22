@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<script>
+/*************************************************************************/
+
+    let message1;
+    message = 'Hello';  // 문자열을 저장
+    alert(message1);     // 변수에 저장된 값을 보여줌
+
+    // 변수 선언과 값 할당을 한 줄에 작성 가능
+    let message2 = 'Hello'; // 변수를 정의하고 값을 할당
+    alert(message2);
+
+    // 한 줄에 여러 변수를 선언하는 것도 가능
+    let user1 = 'John', age1 = 25, message3 = 'Hello';
+
+    let user2 = 'John';
+    let age2 = 25;
+    let message4 = 'Hello';
+
+    let user3 = 'John', 
+        age3 = 25, 
+        message5 = 'Hello';
+
+    let user4 = 'John' 
+      , age4 = 25 
+      , message6 = 'Hello';
+      
+/*************************************************************************/
+    
+    let message7;
+    message7 = 'Hello';
+    message7 = 'World!'; // 값 변경
+    alert(message7);
+
+/*************************************************************************/    
+
+    let Hello = 'Hello world!';
+    let message8;
+
+    // Hello의 'Hello world!'값을 message8에 복사
+    message8 = Hello;
+
+    // 이제 두 변수는 같은 데이터를 가짐
+    alert(Hello);   // Hello world!
+    alert(message8) // Hello world!
+
+/*************************************************************************/
+
+    // 유효한 변수명의 예시
+    let userName;
+    let test123;
+    let $ = 1; // '$'라는 이름의 변수를 선언
+    let _ = 2; // '_'라는 이름의 변수를 선언
+    let apple;
+    let APPLE;
+    let имя = '...';
+    let 我 = '...';
+
+    alert($ + _); // 3
+    
+/*************************************************************************/
+
+    // 잘못된 변수명의 예시
+    let 1a; // 변수명은 숫자로 시작해선 안 됨
+    let my-name; // 하이픈 '-'은 변수명에 올 수 없음
+    let let = 5; // 'let'은 예약어로 변수명으로 사용할 수 없음
+    let return = 5; // 'return'은 예약어로 변수명으로 사용할 수 없음
+
+/*************************************************************************/
+</script>
